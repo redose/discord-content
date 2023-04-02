@@ -1,0 +1,7 @@
+- name: Deploy on Discord
+  uses: snorrwe/discord-action@v1.0.4
+  with:
+    discord_message: new
+    discord_token: ${{ secrets.DISCORD_BOT_TOKEN }}
+    post_file: start.md
+    discord_channel: '485272013707935744' # N.B. The quote marks here are required
