@@ -2,7 +2,7 @@
 
 :spunion: **`ABOUT US`**
 
-The :redose_full_a::redose_full_b::redose_full_c::redose_full_d: community fosters self-reflection, harm reduction, and recovery by providing a safe and comfortable place for visitors of all ages to discuss substance use, misuse, and various paths toward recovery if and when that time comes. 
+The :redose_full_a::redose_full_b::redose_full_c::redose_full_d: community fosters self-reflection, harm reduction, and recovery by providing a safe and comfortable place for visitors of all ages to discuss substance use, misuse, and various paths toward recovery if/when that time comes. 
 
 We aim to provide an environment that is sufficiently inviting that people will hang around and benefit from good information provided either to them or others in the community amidst casual discourse. *re:dose* was founded in 2015 as public safety project of the nonprofit AJAr Foundation (https://ajar.org).
 
