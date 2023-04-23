@@ -1,12 +1,18 @@
 on:
-  :
+  push:
     branches:
-    - main
-  release:
-  - name: Deploy on Discord
-    uses: snorrwe/discord-action@v1.0.4
-    with:
-      discord_message: new
-      discord_token: ${{ secrets.DISCORD_BOT_TOKEN }}
-      discord_channel: '485272013707935744'
-      post_file: start.md
+      - main
+      - release/*
+
+jobs:
+  discord_publish:
+    name: Discord Publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish to Discord
+        uses: snorrwe/discord-action@v1.0.4
+        with:
+          discord_message: new
+          discord_token: ${{ secrets.DISCORD_BOT_TOKEN }}
+          discord_channel: '485272013707935744'
+          post_file: start.md
